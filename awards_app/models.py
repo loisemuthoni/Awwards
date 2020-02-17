@@ -29,3 +29,18 @@ class Project(models.Model):
     @classmethod
     def single_project(cls,id):
         return cls.objects.get(id=id)
+
+class Review(models.Model):
+    project=models.ForeignKey(Project,on_delete=models.CASCADE,related_name='review')
+    user=models.ForeignKey(User,on_delete=models.CASCADE,related_name='review')
+    comment=models.TextField()
+    design=models.IntegerField(validators=[MinValueValidator(1), MaxValueValidator(10)])
+    useability=models.IntegerField(validators=[MinValueValidator(1), MaxValueValidator(10)])
+    content=models.IntegerField(validators=[MinValueValidator(1), MaxValueValidator(10)])
+
+    def __str__(self):
+        return self.user.username
+
+    @classmethod
+    def project_reviews(cls, id):
+        return cls.objects.filter(id)        
