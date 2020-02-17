@@ -19,7 +19,7 @@ def index(request,**kwargs):
     }
     return render(request, 'index.html', locals())
 
-    def myProfile(request,**kwargs):
+def myProfile(request,**kwargs):
     current_user=request.user
     prof_update=ProfileUpdateForm(request.POST)
     user_posts=Project.objects.filter(user=current_user.id)
