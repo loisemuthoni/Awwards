@@ -1,6 +1,14 @@
 beautifulsoup4==4.8.2
+certifi==2019.11.28
+chardet==3.0.4
 Django==1.11.17
 django-bootstrap4==1.1.1
+idna==2.8
 pkg-resources==0.0.0
+python-dateutil==2.8.1
 pytz==2019.3
+pyuploadcare==2.6.0
+requests==2.22.0
+six==1.14.0
 soupsieve==1.9.5
+urllib3==1.25.8
