@@ -37,3 +37,19 @@ You need to have the following installed:
 | Visit Admin | Prompts for admin credentials | Admin dashboard displayed |
 | API projects | api with a list of projects is displayed | api displayed |
 
+## Technologies Used
+* Django-a python frame-work
+* Javascript
+* Html
+* Bootstrap
+* Postmman for visual representation while building the api
+
+# Development
+It would be so great to have your contributions! Just follow the instructions below.
+
+Fork the repo
+* Clone the repo in your machine but ensure you have all the necessary modules.(You can find them in the set up instructions above) git clone
+* Create a new branch git branch contributions
+* Edit your changes in your branch
+* Run the application
+* Push your changes so we can have a view!
