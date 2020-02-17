@@ -5,6 +5,7 @@ Django==1.11.17
 django-bootstrap4==1.1.1
 idna==2.8
 pkg-resources==0.0.0
+psycopg2==2.8.4
 python-dateutil==2.8.1
 pytz==2019.3
 pyuploadcare==2.6.0
