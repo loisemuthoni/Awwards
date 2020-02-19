@@ -66,7 +66,7 @@ def details(request, id):
 
 def search_title(request):
     if request.method == "GET":
-        search_term=request.GET.get('search')
+        search_term=request.GET.get('search', None)
         got_projects=Project.objects.filter(title__icontains=search_term)[::-1]
         context ={
             'got_projects':got_projects,
@@ -74,7 +74,7 @@ def search_title(request):
         return render(request, 'results.html', locals())
     else:
         message="Looking for something, type it and hit search"
-        return render(request, 'results.html', {'message':message})
+        return render(request, 'results.html', {'message':message})       
 
 class Profile_list(APIView):
     def get(self, request, format=None):
