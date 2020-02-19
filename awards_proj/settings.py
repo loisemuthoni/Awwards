@@ -152,9 +152,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
 ]
-UPLOADCARE = {
-    'pub_key':'a9897061cd505552e057',
-    'secret': config('342s(s(!hsjd998sde8$=o4$3m!(o+kce2^97kp6#ujhi')
-}
+
 
 django_heroku.settings(locals())
