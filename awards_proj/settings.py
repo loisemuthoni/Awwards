@@ -104,6 +104,12 @@ TEMPLATES = [
     },
 ]
 
+UPLOADCARE = {
+    'pub_key': 'YOUR_PUBLIC_KEY',
+    'secret': 'YOUT_PRIVATE_KEY',
+}
+
+
 WSGI_APPLICATION = 'awards_proj.wsgi.application'
 
 
