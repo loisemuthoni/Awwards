@@ -46,16 +46,15 @@ You need to have the following installed:
 
 # Development
 It would be so great to have your contributions! Just follow the instructions below.
-
-## Known Bugs
-Currently cannot rate or review and get the api endpoints; actively working on it.
-
 Fork the repo
 * Clone the repo in your machine but ensure you have all the necessary modules.(You can find them in the set up instructions above) git clone
 * Create a new branch git branch contributions
 * Edit your changes in your branch
 * Run the application
 * Push your changes so we can have a view!
+
+## Known Bugs
+Currently cannot rate or review and get the api endpoints; actively working on it.
 
 ### LICENSE
 MIT License
