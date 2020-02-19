@@ -105,7 +105,7 @@ TEMPLATES = [
 ]
 
 UPLOADCARE = {
-    'pub_key': 'YOUR_PUBLIC_KEY',
+    'pub_key': 'a9897061cd505552e057',
     'secret': 'YOUT_PRIVATE_KEY',
 }
 
